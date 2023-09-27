@@ -1,6 +1,6 @@
 // import React from 'react';
 
-import { Outlet, createBrowserRouter } from "react-router-dom";
+import {  createBrowserRouter } from "react-router-dom";
 // import Home from "../pages/Home/Home";
 import MainLayout from "../layout/MainLayout";
 // import Donation from "../pages/Donations/Donations";
@@ -30,7 +30,7 @@ const myCreatedRoute = createBrowserRouter([
             {
                 path : "/",
                 element : <Home></Home>,
-                loader: () =>fetch('/public/homedata.json')
+                loader: () =>fetch('/homeData.json')
             },
             {
                 path : "/donations",
@@ -50,7 +50,7 @@ const myCreatedRoute = createBrowserRouter([
             {
                 path: "donations/:id",
                 element: <Donation></Donation>,
-                loader: () => fetch('/homedata.json')
+                loader: () => fetch('/homeData.json')
             },
             {
                 path:"/donation",

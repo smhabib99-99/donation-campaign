@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import swal from 'sweetalert';
 
 const DonationCard = ({ donation }) => {
-    const { id, title, image, category, price, description, textColor, cardBackgroundColor,categoryBackgroundColor } = donation || {}
+    const { id, image, category, price, description, textColor } = donation || {}
     // const { id, title, image, category, price, description, textColor, cardBackgroundColor,categoryBackgroundColor } = donation || {}
 
     const handleAddToDonation = () =>{
