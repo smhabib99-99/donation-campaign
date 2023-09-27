@@ -4,15 +4,15 @@ import { Link } from 'react-router-dom';
 const DonationsCard = ({ donation }) => {
 
 
-    const { id, title, image, category, price, description, } = donation || {}
+    const { id, title, image, category, price, description, textColor, cardBackgroundColor,categoryBackgroundColor } = donation || {}
 
 
     return (
         <div>
             <div>
                 <Link to={`/donations/${id}`}>
-                    <div className="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-                        <div className="relative mx-4 mt-4 h-96 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
+                    <div style={{ backgroundColor: cardBackgroundColor }} className="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+                        <div className="relative h-96 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
                             <img
                                 src={image}
                                 className="h-full w-full object-cover"
@@ -20,13 +20,15 @@ const DonationsCard = ({ donation }) => {
                         </div>
                         <div className="p-6">
                             <div className="mb-2 flex items-center justify-between">
-                                <p className="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
-                                    {category}
-                                </p>
+                                <button className='rounded-md px-2' style={{backgroundColor:categoryBackgroundColor}}>
+                                    <p style={{ color: textColor }} className="block font-sans text-sm font-medium leading-relaxed text-blue-gray-900 antialiased">
+                                        {category}
+                                    </p>
+                                </button>
                                 <p className="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
                                 </p>
                             </div>
-                            <p className="block font-sans text-sm font-normal leading-normal text-gray-700 antialiased opacity-75">
+                            <p style={{ color: textColor }} className="block font-sans text-xl font-semibold leading-normal text-gray-700 antialiased opacity-75">
                                 {title}
                             </p>
                         </div>

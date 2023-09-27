@@ -1,7 +1,7 @@
 
 
 const FavoritesCard = ({donation}) => {
-    const { id, title, image, category, price, description, } = donation || {}
+    const { id, title, image, category, price, description,textColor, cardBackgroundColor,categoryBackgroundColor } = donation || {}
 
 
 
@@ -19,7 +19,7 @@ const FavoritesCard = ({donation}) => {
                         />
                     </div>
                     <div className="p-6">
-                        <h6 className="mb-4 block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-pink-500 antialiased">
+                        <h6 style={{color:textColor}} className="mb-4 block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-pink-500 antialiased">
                             {/* startups */}
                             <button>{category}</button>
                             
@@ -28,7 +28,7 @@ const FavoritesCard = ({donation}) => {
                             {/* Lyft launching cross-platform service this week */}
                             {title}
                         </h4>
-                        <p className="mb-8 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
+                        <p style={{color:textColor}} className="mb-8 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
                             {/* Like so many organizations these days, Autodesk is a company in
                             transition. It was until recently a traditional boxed software company
                             selling licenses. Yet its own business model disruption is only part of
@@ -36,8 +36,8 @@ const FavoritesCard = ({donation}) => {
                             {price}
                         </p>
                         <a className="inline-block" href="#">
-                            <button
-                                className="flex select-none items-center gap-2 rounded-lg py-3 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                            <button style={{backgroundColor:textColor}}
+                                className=" px-2 flex select-none items-center gap-2 text-white rounded-lg py-3 text-center align-middle font-sans text-xs font-bold uppercase transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                                 type="button"
                             >
                                 {/* Learn More */}

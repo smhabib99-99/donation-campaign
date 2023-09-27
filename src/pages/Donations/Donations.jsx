@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import DonationsCard from './DonationsCard';
 import { useEffect, useState } from 'react';
+import Statistics from '../Statistics/Statistics';
 // import DonationsCard from './DonationsCard';
 
 const Donations = ({donations}) => {
@@ -45,6 +46,9 @@ const Donations = ({donations}) => {
                     donations?.map(donation=> <DonationsCard key={donation.id} donation={donation} ></DonationsCard>)
                     // donations.map(donation => <DonationsCard key={donation.id} donation={donation}></DonationsCard>)
                 }
+                {/* {
+                    donations.map(donation => <Statistics key={donation} donation={donation}></Statistics>)
+                } */}
             </div>
             
         </div>

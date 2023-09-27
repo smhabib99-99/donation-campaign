@@ -6,9 +6,9 @@
         "category": "Health",
         "price": "$299.99",
         "description": "With a monthly donation you will support local healing programs that are designed with local people. These programs support healing by combining Aboriginal and Torres Strait Islander cultures and knowledge with best-practice Western trauma theory.",
-        "cardBackgroundColor": "#F3F3F3",
-        "categoryBackgroundColor": "#3498db",
-        "textColor": "#333"
+        "cardBackgroundColor": "#0052FF26",
+        "categoryBackgroundColor": "#0052FF26",
+        "textColor": "#0052FF"
     },
     {
         "id": 2,
@@ -17,9 +17,9 @@
         "category": "Education",
         "price": "$49.99",
         "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources.",
-        "cardBackgroundColor": "#E1E1E1",
-        "categoryBackgroundColor": "#E74C3C",
-        "textColor": "#555"
+        "cardBackgroundColor": "#FF444A26",
+        "categoryBackgroundColor": "#FF444A26",
+        "textColor": "#FF444A"
     },
     {
         "id": 3,
@@ -28,9 +28,9 @@
         "category": "Clothing",
         "price": "$129.99",
         "description": "Donating to your local Goodwill is one of the easiest ways to support people living right here, in your community. The donated items sold in our stores not only help people find affordable clothing and household goods.",
-        "cardBackgroundColor": "#F0F0F0",
-        "categoryBackgroundColor": "#27AE60",
-        "textColor": "#444"
+        "cardBackgroundColor": "#79C23F26",
+        "categoryBackgroundColor": "#79C23F26",
+        "textColor": "#79C23F"
     },
     {
         "id": 4,
@@ -39,9 +39,9 @@
         "category": "Food",
         "price": "$19.99",
         "description": "For just £1, you can help relieve the people of Bangladesh from their daily struggle against hunger. We will take your small change and make a huge difference to these people’s lives, who without our help would go hungry another night.",
-        "cardBackgroundColor": "#EDEDED",
-        "categoryBackgroundColor": "#9B59B6",
-        "textColor": "#666"
+        "cardBackgroundColor": "#F8714726",
+        "categoryBackgroundColor": "#F8714726",
+        "textColor": "#F87147"
     },
     {
         "id": 5,
@@ -50,9 +50,9 @@
         "category": "Food",
         "price": "$79.99",
         "description": "For just £1, you can help relieve the people of Bangladesh from their daily struggle against hunger. We will take your small change and make a huge difference to these people’s lives, who without our help would go hungry another night.",
-        "cardBackgroundColor": "#F5F5F5",
-        "categoryBackgroundColor": "#E67E22",
-        "textColor": "#777"
+        "cardBackgroundColor": "#F8714726",
+        "categoryBackgroundColor": "#F8714726",
+        "textColor": "#F87147"
     },
     {
         "id": 6,
@@ -61,9 +61,9 @@
         "category": "Clothing",
         "price": "$39.99",
         "description": "Donating to your local Goodwill is one of the easiest ways to support people living right here, in your community. The donated items sold in our stores not only help people find affordable clothing and household goods",
-        "cardBackgroundColor": "#F9F9F9",
-        "categoryBackgroundColor": "#F1C40F",
-        "textColor": "#888"
+        "cardBackgroundColor": "#79C23F26",
+        "categoryBackgroundColor": "#79C23F26",
+        "textColor": "#79C23F"
     },
     {
         "id": 7,
@@ -72,9 +72,9 @@
         "category": "Education",
         "price": "$59.99",
         "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources.",
-        "cardBackgroundColor": "#FCFCFC",
-        "categoryBackgroundColor": "#1ABC9C",
-        "textColor": "#999"
+        "cardBackgroundColor": "#FF444A26",
+        "categoryBackgroundColor": "#FF444A26",
+        "textColor": "#FF444A"
     },
     {
         "id": 8,
@@ -83,9 +83,9 @@
         "category": "Health",
         "price": "$249.99",
         "description": "With a monthly donation you will support local healing programs that are designed with local people. These programs support healing by combining Aboriginal and Torres Strait Islander cultures and knowledge with best-practice Western trauma theory.",
-        "cardBackgroundColor": "#FAFAFA",
-        "categoryBackgroundColor": "#E74C3C",
-        "textColor": "#AAA"
+        "cardBackgroundColor": "#0052FF26",
+        "categoryBackgroundColor": "#0052FF26",
+        "textColor": "#0052FF"
     },
     {
         "id": 9,
@@ -94,9 +94,9 @@
         "category": "Health",
         "price": "$89.99",
         "description": "With a monthly donation you will support local healing programs that are designed with local people. These programs support healing by combining Aboriginal and Torres Strait Islander cultures and knowledge with best-practice Western trauma theory.",
-        "cardBackgroundColor": "#F7F7F7",
-        "categoryBackgroundColor": "#3498db",
-        "textColor": "#BBB"
+        "cardBackgroundColor": "#0052FF26",
+        "categoryBackgroundColor": "#0052FF26",
+        "textColor": "#0052FF"
     },
     {
         "id": 10,
@@ -105,9 +105,9 @@
         "category": "Education",
         "price": "$599.99",
         "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources.",
-        "cardBackgroundColor": "#F2F2F2",
-        "categoryBackgroundColor": "#27AE60",
-        "textColor": "#CCC"
+        "cardBackgroundColor": "#FF444A26",
+        "categoryBackgroundColor": "#FF444A26",
+        "textColor": "#FF444A"
     },
     {
         "id": 11,
@@ -116,9 +116,9 @@
         "category": "Clothing",
         "price": "$69.99",
         "description": "Donating to your local Goodwill is one of the easiest ways to support people living right here, in your community. The donated items sold in our stores not only help people find affordable clothing and household goods",
-        "cardBackgroundColor": "#EDEDED",
-        "categoryBackgroundColor": "#9B59B6",
-        "textColor": "#DDD"
+        "cardBackgroundColor": "#79C23F26",
+        "categoryBackgroundColor": "#79C23F26",
+        "textColor": "#79C23F"
     },
     {
         "id": 12,
@@ -127,8 +127,8 @@
         "category": "Food",
         "price": "$149.99",
         "description": "For just £1, you can help relieve the people of Bangladesh from their daily struggle against hunger. We will take your small change and make a huge difference to these people’s lives, who without our help would go hungry another night.",
-        "cardBackgroundColor": "#F4F4F4",
-        "categoryBackgroundColor": "#F1C40F",
-        "textColor": "#EEE"
+        "cardBackgroundColor": "#F8714726",
+        "categoryBackgroundColor": "#F8714726",
+        "textColor": "#F87147"
     }
 ]

@@ -2,7 +2,8 @@ import PropTypes from 'prop-types'
 import swal from 'sweetalert';
 
 const DonationCard = ({ donation }) => {
-    const { id, title, image, category, price, description, } = donation || {}
+    const { id, title, image, category, price, description, textColor, cardBackgroundColor,categoryBackgroundColor } = donation || {}
+    // const { id, title, image, category, price, description, textColor, cardBackgroundColor,categoryBackgroundColor } = donation || {}
 
     const handleAddToDonation = () =>{
         const addDonationItemsArray =[];
@@ -60,7 +61,7 @@ const DonationCard = ({ donation }) => {
 
                         <div className="p-6 rounded-lg pt-0">
                             <div className="bg-hero-overlay">
-                                <button
+                                <button style={{backgroundColor:textColor}}
                                 onClick={handleAddToDonation}
                                     className="select-none absolute bottom-72 drawer-overlay rounded-lg bg-pink-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                                     type="button"

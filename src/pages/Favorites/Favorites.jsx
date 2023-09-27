@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import DonationCard from "../Donation/DonationCard";
 import FavoritesCard from "./FavoritesCard";
+import Statistics from "../Statistics/Statistics";
 
 
 const Favorites = () => {
@@ -55,6 +56,9 @@ const Favorites = () => {
                 } */}
             </button>
             }
+            {/* {
+                favorites.map(donation => <Statistics key={donation.id} donation={donation}></Statistics>)
+            } */}
             
         </div>
     );
