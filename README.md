@@ -9,10 +9,12 @@ And the Features are
 #Home page Feature:
 In the home page feature, all data will load in the local storage and from there I 
 have shown all data in home page through getItems and setItems built-in function.
+So mainly user will see all Options available in the json data.
 
 #Donation page feature:
 Data from the home page I have taken only the donated data by clicking donate button
 and load and set them in the same way like home page local storage functionality.
+Mainly user will see all the donated data that user donated out from all json data.
 
 #Toast feature:
 This one is a great feature. When donor will click donate button it will show the user like
