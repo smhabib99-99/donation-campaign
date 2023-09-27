@@ -33,7 +33,7 @@ const Favorites = () => {
                 {
                     noFound?<p className="h-[80vh] flex justify-center items-center">{noFound}</p>:
                     
-                    <div className="grid grid-cols-2 gap-5 p-5 m-4 ">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 p-5 m-4 ">
                         {
                             // favorites.map(donation =><DonationCard key={donation.id} donation={donation}></DonationCard>)
                             isSeeAll ? favorites.map(donation => <FavoritesCard key={donation.id} donation={donation}></FavoritesCard>)
