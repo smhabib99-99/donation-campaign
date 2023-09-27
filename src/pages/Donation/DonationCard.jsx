@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'
+import swal from 'sweetalert';
 
 const DonationCard = ({ donation }) => {
     const { id, title, image, category, price, description, } = donation || {}
@@ -12,12 +13,23 @@ const DonationCard = ({ donation }) => {
         if(!donationItems){
             addDonationItemsArray.push(donation)
             localStorage.setItem('donate',JSON.stringify(addDonationItemsArray))
-            alert("Donated")
+            swal("Good job!", "Your donation is successful!", "success");
             
         }
         else{
+            const isExists = donationItems.find(donation => donation.id ==id)
+
+            if(!isExists){
+
+
             addDonationItemsArray.push(...donationItems,donation)
             localStorage.setItem('donate',JSON.stringify(addDonationItemsArray))
+            swal("Good job!", "Your donation is successful!", "success");
+            }
+            else{
+                swal("Ayy!", "You already Donated!", "error");
+            }
+
         }
 
 
