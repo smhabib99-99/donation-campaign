@@ -9,6 +9,7 @@ import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Donations from "../pages/Donations/Donations";
 import Donation from "../pages/Donation/Donation";
 import Home from "../pages/Home/Home";
+import Favorites from "../pages/Favorites/Favorites";
 // import DonationSingleCard from "../pages/DonationSingleCard/DonationSingleCard";
 
 // const Router = () => {
@@ -32,7 +33,7 @@ const myCreatedRoute = createBrowserRouter([
                 loader: () =>fetch('/public/homedata.json')
             },
             {
-                path : "/donation",
+                path : "/donations",
                 element : <Donations></Donations>
             },
             {
@@ -50,6 +51,10 @@ const myCreatedRoute = createBrowserRouter([
                 path: "donations/:id",
                 element: <Donation></Donation>,
                 loader: () => fetch('/homedata.json')
+            },
+            {
+                path:"/donation",
+                element:<Favorites></Favorites>,
             }
         ]
     }

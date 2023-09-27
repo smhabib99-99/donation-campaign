@@ -26,5 +26,5 @@ const Home = () => {
 //     donations: PropTypes.object
 // }
 
-// export default Home;
 export default Home;
+// export default Home;
