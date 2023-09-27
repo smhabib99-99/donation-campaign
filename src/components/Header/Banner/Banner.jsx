@@ -8,7 +8,7 @@ const Banner = () => {
 
             <div>
                 <div className="relative -z-10 opacity-70 w-full">
-                    <img className='h-96 w-full' src="../resources/people-meeting-community-center.jpg" alt="" />
+                    <img className='h-96 w-full' src="people-meeting-community-center.jpg" alt="" />
                 </div>
                 <div className="absolute top-72 right-4 left-10 z-10">
                     <div>
